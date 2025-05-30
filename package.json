@@ -2,7 +2,7 @@
   "name": "edgar-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m-edga-m.github.io/",
+  "homepage": "https://m-edga-m.github.io/edgar-profile",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -15,9 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
     "build": "react-scripts build",
-    "deploy": "main -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "main": "^6.3.0"
+    "gh-pages": "^6.3.0"
   }
 }
