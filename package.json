@@ -2,7 +2,7 @@
   "name": "edgar-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m-edga-m.github.io/edgar-profile",
+  "homepage": "https://m-edga-m.github.io/m-edgar-m",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
